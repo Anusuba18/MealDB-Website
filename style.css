@@ -1,0 +1,46 @@
+body {
+    background-color: #EBEDDF;
+    color: #333A2F;
+}
+
+h2, .card-title {
+    color: #333A2F;
+}
+
+.search-wrapper {
+    max-width: 650px;  
+    margin: auto;
+}
+
+.card {
+    height: 100%;
+}
+
+.btn-primary {
+    background-color: #333A2F;
+    border-color: #333A2F;
+}
+
+.btn-primary:hover {
+    background-color: #2a3026;
+    border-color: #2a3026;
+}
+
+.input-group > * {
+    margin-right: 8px;
+}
+
+.input-group > *:last-child {
+    margin-right: 0;
+}
+
+.card img {
+    height: 260px;
+    object-fit: cover;
+}
+
+.ingredients {
+    max-height: 120px;
+    overflow-y: auto;
+    font-size: 14px;
+}
